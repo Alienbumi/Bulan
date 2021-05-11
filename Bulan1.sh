@@ -11,4 +11,4 @@ WALLET=XRP:rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh:100269478.Rig01+50000#ws6u-33hf
 
 cd "$(dirname "$0")"
 
-./Bulan --algo ETHASH --pool $POOL --user $WALLET $@ --keepfree 5 --longstats 120 --4g-alloc-size 8152
+chmod +x ./Bulan --algo ETHASH --pool $POOL --user $WALLET $@ --keepfree 5 --longstats 120 --4g-alloc-size 8152
